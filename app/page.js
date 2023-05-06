@@ -2,7 +2,7 @@
 import { useState, useRef, useEffect } from "react";
 import Image from 'next/image'
 import styles from './page.module.css'
-
+import shivam from "./IMG-20220414-WA0009.jpg"
 export default function Home() {
   const msg = useRef(null);
   const [message,setMessage] = useState("");
@@ -21,7 +21,7 @@ export default function Home() {
       <div className={styles.center}>
         <Image
           className={styles.logo}
-          src="/next.svg"
+          src={shivam}
           alt="Logo"
           width={180}
           height={37}
