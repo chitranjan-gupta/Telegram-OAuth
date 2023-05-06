@@ -9,8 +9,8 @@ export default function Home() {
   useEffect(()=>{
     let mes = prompt("Enter the password");
     console.log(mes);
-    if(mes == "shivam"){
-      msg.current.innerText = "Hi! from shivam";
+    if(mes == "03122021"){
+      msg.current.innerText = "Hii baccha \n all the best for tomorrow, tomorrow is yours day. We have trust on you that you will surely crack the exam with a good rank. Sorry for my bad behaviour that i have done in recent days, but trust me whatever i have done there is reason behind it. \n Love You baccha ❤️♾️ \n Best wishes from yours betuu ❤️.";
     }else{
       msg.current.innerText = "Failed";
      }
@@ -22,7 +22,7 @@ export default function Home() {
         <Image
           className={styles.logo}
           src="/next.svg"
-          alt="Next.js Logo"
+          alt="Logo"
           width={180}
           height={37}
           priority
