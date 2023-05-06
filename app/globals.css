@@ -87,7 +87,6 @@ body {
 
 body {
   color: rgb(var(--foreground-rgb));
-  background-image:url("./IMG-20220414-WA0009.jpg");
   background-repeat:no-repeat;
   background-size:contain;
 }
