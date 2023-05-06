@@ -8,6 +8,7 @@ export default function Home() {
   const [message,setMessage] = useState("");
   useEffect(()=>{
     setMessage(prompt("Enter the password"));
+    console.log(message);
     if(message == "shivam"){
       msg.current.innerText = "Hi! from shivam";
     }else{
