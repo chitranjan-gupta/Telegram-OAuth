@@ -7,9 +7,9 @@ export default function Home() {
   const msg = useRef(null);
   const [message,setMessage] = useState("");
   useEffect(()=>{
-    setMessage(prompt("Enter the password"));
-    console.log(message);
-    if(message == "shivam"){
+    let mes = prompt("Enter the password");
+    console.log(mes);
+    if(mes == "shivam"){
       msg.current.innerText = "Hi! from shivam";
     }else{
       msg.current.innerText = "Failed";
