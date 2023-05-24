@@ -12,7 +12,7 @@ export default function RootLayout({ children }) {
                 }`}
             </Script>
             {children}
-            <script async src="https://telegram.org/js/telegram-widget.js?22" data-telegram-login="OAuth_By_Telegram_Bot" data-size="large" data-radius="5" data-onauth="onTelegramAuth(user)" data-request-access="write"></script>    
+            <Script async src="https://telegram.org/js/telegram-widget.js?22" data-telegram-login="OAuth_By_Telegram_Bot" data-size="large" data-radius="5" data-onauth="onTelegramAuth(user)" data-request-access="write"></Script>    
         </body>
       </html>
     );
