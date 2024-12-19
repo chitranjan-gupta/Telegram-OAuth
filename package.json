@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/chitranjan01/Telegram-OAuth#readme",
   "dependencies": {
-    "next": "^14.2.10",
+    "next": "^14.2.15",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   }
